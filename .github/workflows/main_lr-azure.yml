@@ -35,5 +35,5 @@ jobs:
       with:
         app-name: 'lr-azure'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_c25f0a1f876d4564a8f195b079ebb7f4 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_2b42de63df314fe49b90d02d2fc06f39 }}
         package: '.\app.zip'
